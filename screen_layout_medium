@@ -1,0 +1,49 @@
+.page {
+  	box-shadow: none;
+}
+
+nav { 
+	top: 00px; 
+}
+
+nav li { display: block;}
+nav h1 { margin: 20px 20px 20px 90px; }
+
+article.top { margin: 120px 20px 10px 20px; }
+
+#logo { left: -8px; }
+.promo_container { padding: 0px 20px 15px 20px; }
+
+.promo_container .promo { background-position: 0px 0px; }
+
+.promo_container .promo .content { padding: 70px 30px 0px 0px; }
+
+.service_container .service { width: 100%; float: none; }
+
+.portfolio_entry img { max-width: 300px; }
+
+body { background-image: none; }
+
+img.clients { max-width: 700px; }
+
+div.slider {
+    font-size: 500px;
+    width: 1.6em;
+    height: 370px;
+    overflow: hidden;
+}
+
+div.slider > div {
+	top: 70px;
+    position: relative;
+    left: 0;
+    width: 4em;
+    -webkit-animation: loop 20s infinite;
+    -moz-animation: loop 20s infinite;
+}
+
+div.slider > div > img {
+    width: 2em;
+    display: block;
+    float: left;
+}
