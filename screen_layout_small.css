@@ -1,0 +1,109 @@
+#logo {
+	left: 40%;
+	top: 5px;
+}
+
+header.mobile { 
+	display: block; 
+	background: black;
+	padding: 100px 0px 10px 0px;
+	text-align: center;
+	-moz-box-shadow: 0px 0px 10px 0px #242424;
+  	-webkit-box-shadow: 0px 0px 10px 0px #242424;
+  	box-shadow: 0px 0px 10px 0px #242424;
+}
+header.mobile h2 { font-weight: 100; color: #fff; font-size: 1em; line-height: 2px; letter-spacing: 2px; }
+
+.contactandclients { background: #2E2E2E url(../images/background_gradient.png) repeat; }
+
+article { padding: 20px 20px 10px 20px; }
+article.top { margin: 0px 20px 10px 20px; }
+
+nav {
+	position: static;
+	padding: 10px 0px 10px 0px;
+	background-color: black;
+}
+
+.page {
+  	box-shadow: none;
+}
+
+nav li {
+	float: none;
+	color: #fff;
+	display: block;
+	margin: 15px;
+	padding: 9px;
+	border: 1px solid #F7931D;
+	background:url(../images/mobile_arrow.png) no-repeat right center;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border-radius: 12px;
+}
+
+img.centered {max-width: 220px;}
+img.portfolio_image { 
+	display: block;
+	margin: 5px auto 5px auto;
+	max-width: 280px;
+}
+img.clients { display: none; }
+
+nav li:hover { color: #F7931D; background-color: rgba(255,255,255,.15); }
+
+nav li:hover ul {
+	display: none;
+}
+nav li:active ul {
+	display: none;
+}
+nav h1 { display: none; }
+
+.contact_options { border-bottom: none; }
+
+ul.slides {max-width: 260px;}
+.slides {
+    padding: 0;
+    width: 609px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+
+.promo_container .promo {
+	width: auto;
+	float: none;
+	padding: 10px 0px 0px 0px;
+	background-position: 0px 10px;
+	border-top: 1px solid #F7931D;
+}
+
+.portfolio_category li {
+	text-decoration: none;
+	float: left;
+	width: 100%;
+	margin: 5px 0px 5px 0px;
+	padding: 9px;
+	border: 1px solid #F7931D;
+	background:url(../images/mobile_arrow.png) no-repeat right center;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border-radius: 12px;
+}
+
+.portfolio_entry img { max-width: 300px; }
+
+.service_container .service { 
+	width: 100%; 
+	float: none; 
+	padding: 5px 0px 0px 0px; 
+	border-top: 1px solid #F7931D;}
+.service_container .service .content { padding: 5px 0px 0px 65px; }
+
+footer { border-top: 1px solid #575757; }
+
+body { background-image: none; }
+
+.slider { display: none; }
