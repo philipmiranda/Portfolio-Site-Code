@@ -1,0 +1,96 @@
+body { margin: 0; padding: 0; }
+
+nav {
+	position: relative;
+	width: 100%;
+	display: block;
+	position: absolute;
+	background-color: black;
+}
+
+.page {
+	-moz-box-shadow: 0px 5px 5px 5px #242424;
+  	-webkit-box-shadow: 0px 5px 5px 5px #242424;
+  	box-shadow: 0px 5px 5px 5px #242424;
+}
+
+#logo {
+	position: absolute;
+	left: -20px;
+	top: 5px;
+	z-index: 100;
+}
+
+article { padding: 10px 20px 10px 20px; }
+article.top { margin: 60px 20px 10px 20px; }
+.about { padding: 10px 20px 10px 20px; background-color: #2E2E2E; }
+.about h1 {color: #F7931D;}
+
+.promo_container { padding: 0px 0px 15px 20px; }
+.promo_container .promo {
+	width: 33%;
+	float: left;
+	background-position: 0px 3px;
+}
+
+.promo_container .promo .content { padding: 0px 20px 5px 90px; }
+	
+}
+	
+}
+.promo_container .promo .content { padding: 0px 30px 0px 70px; }
+
+.service_container { padding: 10px 20px 10px 20px; }
+.service_container .service .content { padding: 0px 30px 0px 70px; }
+.service_container h3 { color: #F7931D; font-weight: 100; }
+.service_container .service { 
+	width: 33%;
+	float: left;
+	padding: 10px 0px 0px 0px; 
+	background-position: 0px 10px;
+}
+
+article.intro {}
+
+.portfolio_entry { 
+	display: block;
+	margin: 10px 20px 10px 20px;
+	text-align: center;
+}
+.portfolio_entry h2 { font-size: 1em; margin: 0em; color: #F7931D; }
+.portfolio_entry p { line-height: 1px; }
+.portfolio_entry img { max-width: 500px; }
+
+#service_nav { text-align: center; }
+.main_one { display: inline-block; padding: 60px 20px 20px 20px; }
+.main_one img:hover {
+	opacity:0.7;
+	filter:alpha(opacity=70);
+}
+
+nav { top: 00px; position: fixed; max-width: 980px; }
+nav li { 
+	margin: 20px 20px 20px 10px;
+	list-style: none;
+	float: right;
+}
+
+nav h1 { margin: 20px 20px 20px 70px; float: left; font-weight:100; letter-spacing: 2px; }
+
+nav li ul{
+	display: none;
+	position: absolute;
+	color: #F7931D;
+	background-color: black;
+	padding: 10px;
+	top: 20px;
+	width: 12em;
+	font-weight: normal;
+}
+
+a.social_media { margin: 5px }
+a.social_media:hover { opacity:0.4; filter:alpha(opacity=40); }
+
+@media screen and (max-width:990px){
+	footer { padding-left: 20px; }	
+}
